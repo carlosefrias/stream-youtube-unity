@@ -14,7 +14,7 @@ public class YoutubeDemoUsage : MonoBehaviour {
 
     public void PlayFromInput()
     {
-        Handheld.PlayFullScreenMovie(YoutubeVideo.Instance.RequestVideo("https://www.youtube.com/watch?v=PTSDBLr62qI&t=67s", 720)); //play the url that are in the input.
+        Handheld.PlayFullScreenMovie(YoutubeVideo.Instance.RequestVideo(videoUrlInput.text, 720)); //play the url that are in the input.
         Debug.Log("The video only plays on mobile device, if you receive one big url on console all it's ok, will play in mobile device");
     }
 }
