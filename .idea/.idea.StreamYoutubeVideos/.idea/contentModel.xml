@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\me1cme\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\me1cme\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_StreamYoutubeVideos.432539346.00" t="ExcludeRecursive" />
+    <e p="C:\Users\me1cme\repos\StreamYoutubeVideos" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="AppManager.cs" t="Include" />
+        <e p="Youtube" t="Include">
+          <e p="link.xml" t="Include" />
+          <e p="MediaPlayer" t="Include">
+            <e p="Chromakey.shader" t="Include" />
+            <e p="Chromakey2.shader" t="Include" />
+            <e p="FFmpeg.AutoGen" t="Include">
+              <e p="FFmpeg.avcodec.g.cs" t="Include" />
+              <e p="FFmpeg.avdevice.g.cs" t="Include" />
+              <e p="FFmpeg.avfilter.g.cs" t="Include" />
+              <e p="FFmpeg.avformat.g.cs" t="Include" />
+              <e p="FFmpeg.avutil.g.cs" t="Include" />
+              <e p="FFmpeg.swresample.g.cs" t="Include" />
+              <e p="FFmpeg.swscale.g.cs" t="Include" />
+              <e p="Unresolved.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+            <e p="readme_License.txt" t="Include" />
+            <e p="Resources" t="Include">
+              <e p="Unlit_YUV.shader" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="MedaiPlayerSampleGUI.cs" t="Include" />
+              <e p="MediaPlayerCtrl.cs" t="Include" />
+            </e>
+            <e p="Unlit_SphereInside.shader" t="Include" />
+          </e>
+          <e p="UnityPackages" t="Include">
+            <e p="JsonNetSample" t="Include">
+              <e p="JsonNetSample.cs" t="Include" />
+            </e>
+          </e>
+          <e p="YoutubePlayer" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="GetVideo.cs" t="Include" />
+              <e p="YoutubeDemoUsage.cs" t="Include" />
+              <e p="YoutubeEasyMovieTexture.cs" t="Include" />
+              <e p="YoutubeExtractor" t="Include">
+                <e p="AacAudioExtractor.cs" t="Include" />
+                <e p="AdaptiveType.cs" t="Include" />
+                <e p="AudioDownloader.cs" t="Include" />
+                <e p="AudioExtractionException.cs" t="Include" />
+                <e p="AudioType.cs" t="Include" />
+                <e p="BigEndianBitConverter.cs" t="Include" />
+                <e p="BitHelper.cs" t="Include" />
+                <e p="Decipherer.cs" t="Include" />
+                <e p="Downloader.cs" t="Include" />
+                <e p="DownloadUrlResolver.cs" t="Include" />
+                <e p="FlvFile.cs" t="Include" />
+                <e p="HttpHelper.cs" t="Include" />
+                <e p="IAudioExtractor.cs" t="Include" />
+                <e p="Mp3AudioExtractor.cs" t="Include" />
+                <e p="ProgressEventArgs.cs" t="Include" />
+                <e p="Properties" t="Include">
+                  <e p="AssemblyInfo.cs" t="Include" />
+                </e>
+                <e p="VideoDownloader.cs" t="Include" />
+                <e p="VideoInfo.cs" t="Include" />
+                <e p="VideoNotAvailableException.cs" t="Include" />
+                <e p="VideoType.cs" t="Include" />
+                <e p="YoutubeParseException.cs" t="Include" />
+              </e>
+              <e p="YoutubeVideo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="StreamYoutubeVideos.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
