@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using System.Collections;
+using System.IO;
+using UnityEditor.VersionControl;
 using UnityEngine;
 using UnityEngine.Video;
 using VideoLibrary;
@@ -18,7 +20,8 @@ public class AppManager : MonoBehaviour
     {
 //        Application.OpenURL(UrlPdf);
         //Run();
-        SaveVideoToDisk(UrlVideo2);
+        StartCoroutine(SaveVideoToDisk(UrlVideo2));
+//        SaveVideoToDisk(UrlVideo2);
         //PlayVideo();
     }
 //    
@@ -39,14 +42,18 @@ public class AppManager : MonoBehaviour
 //    }
 
     private YouTubeVideo _video;
-    private void SaveVideoToDisk(string link)
+    private IEnumerator SaveVideoToDisk(string link)
     {
         var youTube = YouTube.Default; // starting point for YouTube actions
         _video = youTube.GetVideo(link); // gets a Video object with info about the video
         _videoPath = Path.Combine(Application.streamingAssetsPath, "video.mp4");
         print($"_videoPath: {_videoPath}");
-        File.WriteAllBytes(_videoPath, _video.GetBytes());
-        var clip = Resources.Load("video") as VideoClip;
+        //File.WriteAllBytes(_videoPath, _video.GetBytes());
+        print("start");
+        yield return AssetBundle.LoadFromMemoryAsync(_video.GetBytes());
+        print("end");
+        
+        //var clip = Resources.Load("video") as VideoClip;
     }
 
     private void PlayVideo()
